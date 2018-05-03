@@ -58,7 +58,7 @@ public class SzamlaIT {
     public void testGetSzamlaszam() {
         System.out.println("getSzamlaszam");
         Szamla instance = new Szamla("11111111-11111111-11111111", 5);
-        String expResult = "11111111-11111111-11111111";
+        String expResult = "11111111-11111111-111111111";
         String result = instance.getSzamlaszam();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
